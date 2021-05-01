@@ -1,0 +1,14 @@
+h1 {
+	animation-name: mudacor;
+	animation-duration: 7s;
+	color: blue;
+}
+
+@keyframes mudacor {
+	from {
+		color: orange;
+	}
+	to {
+		color: blue;
+	}
+}
