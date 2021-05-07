@@ -7,33 +7,35 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
     <link href="imagens/Logotipo64.png" rel="shortcut icon" />
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <title>Home</title>
 </head>
 
-<body style="text-align: center;">
-    <div id="caixa">
-        <div id="principal">
-            <div id="navbar">
-                <ul>
-                    <li id="img"><img src="imagens/Logotipo64.png"></li>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="sobre.html">Sobre</a></li>
-                    <li><a href="contato.html">Contato</a></li>
-                    <li><a href="saibamais.html">Saiba mais</a></li>
-                </ul>
-            </div>
+<body>
+
+<!-- INICIO MENU -->    
+    <div class="menu">
+        <div id="navbar">
+            <ul>
+                <li><img src="imagens/Logotipo64.png"></li>
+                <li><a href="index.html">Home</a></li>
+                <li><a href="sobre.html">Sobre</a></li>
+                <li><a href="contato.html">Contato</a></li>
+                <li><a href="saibamais.html">Saiba mais</a></li>
+            </ul>
         </div>
     </div>
+<!-- FIM MENU -->
 
-    <h1>Noticias Covid-19</h1>
+
+    <h1>As 6 melhores notícias sobre o COVID-19</h1>
 
     <!-- CARDS NOTICIAS -->
     <div id="noticias-card">
         <div class="card"
-            onclick="window.open('https:\/\/www.cnnbrasil.com.br/internacional/2021/04/18/apos-mais-de-um-ano-israelenses-saem-as-ruas-sem-mascara-de-protecao/','mywindow');"
-            style="cursor: pointer;">
+            onclick="window.open('https:\/\/www.cnnbrasil.com.br/internacional/2021/04/18/apos-mais-de-um-ano-israelenses-saem-as-ruas-sem-mascara-de-protecao/','mywindow');">
             <div>
-                <img src="imagens/noticias/CNN4.png" alt="Avatar" />
+                <img src="imagens/noticias/CNN4.png" alt="Homem usa boné branca e camiseta preta está lendo jornal" />
             </div>
             <div class="container">
                 <h4><b>CNN Brasil</b></h4>
@@ -44,10 +46,9 @@
             </div>
         </div>
         <div class="card"
-            onclick="window.open('https:\/\/g1.globo.com/sp/presidente-prudente-regiao/noticia/2021/02/16/durante-a-pandemia-empreendedorismo-torna-se-opcao-para-superar-desafios-e-inovar-no-mercado-de-trabalho.ghtml','mywindow');"
-            style="cursor: pointer;">
+            onclick="window.open('https:\/\/g1.globo.com/sp/presidente-prudente-regiao/noticia/2021/02/16/durante-a-pandemia-empreendedorismo-torna-se-opcao-para-superar-desafios-e-inovar-no-mercado-de-trabalho.ghtml','mywindow');">
             <div>
-                <img src="imagens/noticias/G1.png" alt="Avatar" />
+                <img src="imagens/noticias/G1.png" alt="Pessoa está lendo infográfico na tela do notebook" />
             </div>
             <div class="container">
                 <h4><b>G1</b></h4>
@@ -58,10 +59,9 @@
             </div>
         </div>
         <div class="card"
-            onclick="window.open('https:\/\/g1.globo.com/jornal-nacional/noticia/2021/04/29/chega-ao-brasil-o-primeiro-lote-da-vacina-da-pfizer.ghtml','mywindow');"
-            style="cursor: pointer;">
+            onclick="window.open('https:\/\/g1.globo.com/jornal-nacional/noticia/2021/04/29/chega-ao-brasil-o-primeiro-lote-da-vacina-da-pfizer.ghtml','mywindow');">
             <div>
-                <img src="imagens/noticias/Globo2.png" alt="Avatar" />
+                <img src="imagens/noticias/Globo2.png" alt="Dois homens estão descarregando a carga usando carrinho" />
             </div>
             <div class="container">
                 <h4><b>Globo.com</b></h4>
@@ -71,10 +71,9 @@
                 </p>
             </div>
         </div>
-        <div class="card" onclick="window.open('https:\/\/www.itau.com.br/coronavirus/doacoes/','mywindow');"
-            style="cursor: pointer;">
+        <div class="card" onclick="window.open('https:\/\/www.itau.com.br/coronavirus/doacoes/','mywindow');">
             <div>
-                <img src="imagens/noticias/Itau1.png" alt="Avatar" />
+                <img src="imagens/noticias/Itau1.png" alt="Lado esquerdo logomarca Itaú, barra vertical no meio, lado direito logomarca Todos pela Saúde" />
             </div>
             <div class="container">
                 <h4><b>Itaú</b></h4>
@@ -87,11 +86,41 @@
         </div>
     </div>
 
-    <!-- VIDEO NOTICIAS -->
-    <div id="cabecalho">
+    <!-- INICIO PAINEL 1 -->
+    <div class="painel">
+        <h3>Doação de medicamentos do kit intubação</h3>
+        <div class="painel-linha">
+            <div id="painel-coluna video">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/LPyxwC0Fb8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+            </div>
+            <div class="painel-coluna">
+                <p class="justificaTexto">
+                    A doação de 80 mil medicamentos do kit intubação já partiram da Espanha rumo ao Brasil. Os anestésicos, sedativos e bloqueadores neuromusculares serão rapidamente distribuídos para todos os estados. Esse é o Ministério da Saúde trabalhando por você.
+                </p>
+                <a href="https://www.youtube.com/watch?v=LPyxwC0Fb8c"
+                    target="_blank" class="button" style="align-self: center;"><button>SAIBA MAIS</button></a>
+            </div>
+        </div>
+    </div>
+    <!-- FIM PAINEL 1 -->
+
+    <!-- INICIO REFERENCIA -->
+    <div class="referencia">
+        <div class="referencia-texto">
+            <h3>Referências</h3>
+            <p>Seguem as fontes de referências para acessar as notícias descritivas nos sites publicados.</p>
+        </div>
+        <div classe="referencia-botao" >
+            <a href="saibamais.html"><button>SAIBA MAIS</button></a>
+        </div>
+    </div>
+    <!-- FIM REFERENCIA -->
+
+    <!-- INICIO PAINEL 2 -->
+    <div class="painel">
         <h3>Goiás lança campanha de conscientização com último áudio de paciente de Covid-19</h3>
-        <div class="between">
-            <div id="fonte">
+        <div class="painel-linha">
+            <div class="painel-coluna">
                 <p class="justificaTexto">
                     Uma campanha, realizada pelo governo de Goiás, emocionou muitas pessoas. O vídeo lançado
                     pela gestão estadual tem o objetivo de
@@ -102,15 +131,19 @@
                     pessoas.
                 </p>
                 <a href="https://saude.ig.com.br/coronavirus/2021-02-28/goias-lanca-campanha-de-conscientizacao-com-ultimo-audio-de-paciente-de-covid-19.html"
-                    target="_blank" class="button" style="align-self: center;">SAIBA MAIS</a>
+                    target="_blank" class="button" style="align-self: center;"><button>SAIBA MAIS</button></a>
             </div>
-            <div id="video">
-                <video controls width="560" height="315">
+
+            <div id="painel-coluna video">
+                <video controls="" width="560" height="315">
                     <source src="videos/videocv19.mp4">
                 </video>
             </div>
         </div>
     </div>
-</body>
+    <!-- FIM PAINEL 2 -->
 
+</body>
 </html>
+
+
