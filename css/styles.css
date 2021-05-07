@@ -1,6 +1,5 @@
 body {
 	background-color: #ffffff;
-	text-align: center;
 	padding: 0px;
     margin: 0px;
 	font-family: "Roboto", sans-serif;
@@ -8,6 +7,7 @@ body {
 
 h1 {
 	font-weight: bold;
+	text-align: center;
 }
 
 h3 {
@@ -17,7 +17,9 @@ h3 {
 	color: black;
 	text-align: center;
 	font-size: x-large;
-	font-weight: bold;}
+	font-weight: bold;
+	text-align: center;
+}
 
 .justificaTexto {
 	text-align: justify;
@@ -60,10 +62,8 @@ button:hover{
 	position: relative;
 	vertical-align: top;
 	float: left;
-
 	list-style-type: none;
 	overflow: hidden;
-	
 }
 
 .menu li {
@@ -155,7 +155,7 @@ img {
 
 /* FIM - CARD */
 
-/* INICIO - PAINEL COM VIDEO 2 */
+/* INICIO - PAINEL COM VIDEO*/
 
 .painel {
 	width: auto;
@@ -195,7 +195,7 @@ img {
 }
 
 .painel-linha button  {
-	margin-left: -450px;
+	margin-left: 0px;
 	margin-top: 50px;	
 }
 
@@ -205,21 +205,43 @@ video {
 	height: 420px;
 }
 
-/* FIM - PAINEL COM VIDEO 2 */
+iframe {
+	padding: auto;
+}
+
+/* FIM - PAINEL COM VIDEO */
 
 /* INICIO REFERENCIA */
 
-.referencia-texto h3 p {
-	text-align: left;
-	margin-left: 80px;
-	margin-top: -20px;
-	list-style-type: none;
+.referencia {
+width: 80%;
+margin-bottom: -10px;
+display: flex;
+justify-content: space-around;
+align-items: stretch;
 }
 
-.referencia-botao {
-display: block;
-float:right;
-text-decoration: none;
+.referencia-texto p {
+	font-size: 21px;
+}
 
+
+.referencia-texto h3, p {
+	text-align: left;
+	color:#140083;
+	font-weight: bold;
+}
+
+
+.referencia-texto  {
+	text-align: left;
+	margin-left: 0px;
+	margin-top: -90px;
+	width: 860px;
+
+}
+
+.referencia-botao  {
+	margin-bottom: 100px;
 }
 /* FIM REFERENCIA */
