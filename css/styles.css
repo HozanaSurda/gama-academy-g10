@@ -591,3 +591,31 @@ header nav ul li a:hover, header nav ul li a:hover {
 }
 
 /* FIM Botão WHATSAPP */
+
+/* INICIO Footer */
+footer {
+	height: 80px;
+	background-color: #140083;
+margin-top: -50px;
+display: flex;
+justify-content:space-between;
+}
+
+footer h4 {
+	text-align:left;
+	color:white;
+}
+
+footer img  {
+    padding-inline: 0px;
+	float: right;
+}
+footer #envelope{
+    padding-right: 100px;
+}
+
+footer {
+    font-style: italic;
+    padding-left: 20px;
+}
+/* FIM Footer */
