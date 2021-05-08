@@ -126,3 +126,50 @@ function leiaMais8(){
 	}
 }
 
+// INICIO botão SUBIR
+var mybutton = document.getElementById("subir");
+window.onscroll = function() {scrollFunction()};
+function scrollFunction() {
+	if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    mybutton.style.display = "block";
+    } else {
+    mybutton.style.display = "none";
+    }
+}
+function topFunction() {
+    document.body.scrollTop = 0;
+	document.documentElement.scrollTop = 0;
+}
+// FIM botão SUBIR
+
+// INICIO Formulário
+const formularioDeContato = document.getElementById('contact-form')
+
+formularioDeContato.addEventListener('submit', function(e){
+    e.preventDefault()
+    let nome = document.getElementById('nomeid').value;
+    let fone = document.getElementById('foneid').value;
+	let email = document.getElementById('emailid').value;
+	let mensagem = document.getElementById('mensagemid').value;
+
+fetch('https://webhook.site/59a71bd6-656c-442e-9691-24b9b701c997', {
+    method: 'POST',
+    body: JSON.stringify({
+	nomeid: nome,
+	foneid: fone,
+	emailid: email,
+	mensagemid: mensagem
+})
+	}).then( response => {
+		if (response.status === 200) {
+			alert('Mensagem enviada');
+				document.getElementById('nomeid').value = "";
+				document.getElementById('foneid').value ="";
+				document.getElementById('emailid').value="";
+				document.getElementById('mensagemid').value="";
+		} else {
+			alert("ERROR");
+		}
+	})
+})
+// FIM Formulário
