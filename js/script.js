@@ -163,7 +163,7 @@ fetch('https://webhook.site/59a71bd6-656c-442e-9691-24b9b701c997', {
 	}).then( response => {
 		if (response.status === 200) {
 			alert('Mensagem enviada');
-				document.getElementById('nomeid').value = " ";
+				document.getElementById('nomeid').value = "";
 				document.getElementById('foneid').value ="";
 				document.getElementById('emailid').value="";
 				document.getElementById('mensagemid').value="";

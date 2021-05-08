@@ -6,61 +6,73 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles-sobre.css">
     <link href="imagens/Logotipo64.png" rel="shortcut icon" />
     <title>Contato</title>
 </head>
 
 <body>
 
-<!-- INICIO Botão SUBIR -->
-<button onclick="topFunction()" id="subir" title="Ir ao topo">Subir</button>
-<!-- FIM Botão SUBIR -->
+    <!-- INICIO Botão SUBIR -->
+    <button onclick="topFunction()" id="subir" title="Ir ao topo">Subir</button>
+    <!-- FIM Botão SUBIR -->
 
-    <div id="navbar">
-        <ul>
-            <li id="img"><img src="imagens/Logotipo64.png"></li>
-            <li><a href="index.html">Home</a></li>
-            <li><a href="sobre.html">Sobre</a></li>
-            <li><a href="contato.html">Contato</a></li>
-            <li><a href="saibamais.html">Saiba mais</a></li>
+<!-- INICIO MENU -->
+<header class="box-menu">
+    <div class="logo"></div>
+    <nav>
+        <ul class="navegacao">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="sobre.html">SOBRE NÓS</a></li>
+            <li><a href="contato.html">CONTATO</a></li>
+            <li><a href="saibamais.html">SAIBA MAIS</a></li>
         </ul>
-    </div>
+    </nav>
+</header>
+<!-- FIM MENU -->
+
+
     <div class="contato">
         <h1>Entre em Contato</h1>
         <div class="formulario">
-        <form id="contact-form" name="formulario">
-            <label for="nome">Nome</label>
-            <input type="text" id="nomeid" placeholder="Seu nome" required name="nome"/>
-            <br>
-            <label for="fone">Telefone</label>
-            <input type="telefone" id="foneid" placeholder="(xx)xxxx-xxxx" name="fone"/>
-            <br>
-            <label for="email">E-mail</label>
-            <input type="email" id="emailid" placeholder="Seu@mail.com" name="email"/>
-            <br>
-            <textarea placeholder="Mensagem" id="mensagemid"></textarea>
-            <br>
-            <button type="reset"> Limpar </button>
-            <button type="submit"> Enviar </button>
-        </form>
+            <form id="contact-form" name="formulario">
+                <label for="nome">Nome</label>
+                <input type="text" id="nomeid" placeholder="Seu nome" required name="nome" />
+                <br>
+                <label for="fone">Telefone</label>
+                <input type="telefone" id="foneid" placeholder="(xx)xxxx-xxxx" name="fone" />
+                <br>
+                <label for="email">E-mail</label>
+                <input type="email" id="emailid" placeholder="Seu@mail.com" name="email" />
+                <br>
+                <textarea placeholder="Mensagem" id="mensagemid"></textarea>
+                <br>
+                <button type="reset"> Limpar </button>
+                <button type="submit"> Enviar </button>
+            </form>
         </div>
         <hr>
         <h3>Nosso Contato:</h3>
-        <h3>Email&nbsp;&nbsp;<img src="imagens/icones/email.png" alt="Icone de Email" width="32px" height="20px">&nbsp;&nbsp;:&nbsp; @dominio.com.br</h3>
-        <h3>Ficou dúvida? Clique no Icone do Whatsapp</h3>        
-    </div> 
+        <h3>Email&nbsp;&nbsp;<img src="imagens/icones/email.png" alt="Icone de Email" width="32px"
+                height="20px">&nbsp;&nbsp;:&nbsp; @dominio.com.br</h3>
+        <h3>Ficou dúvida? Clique no Icone do Whatsapp</h3>
+    </div>
 
     <footer>
         <div>
             <h4>© Copyright 2021 : Todos direitos reservados G11</h4>
-         </div>
-         <div>
-             <a href="contato.html"><img id="envelope" src="imagens/envelope.png" a href="contato.html" width="60px" height="60px" alt="Envelope"></a>
-             <a href="https://api.whatsapp.com/send?phone=5519992579142&text=Olá, gostaria entrar contato com equipe de 6 melhores notícias." target="_blank"><img src="imagens/wpp.png" width="50px" height="50px" alt="WhatsApp"></a>
-         </div>    
-     </footer>
-     <a href="https://api.whatsapp.com/send?phone=5519992579142&text=Olá, gostaria entrar contato com equipe de 6 melhores notícias." class="whatsapp-button" target="_blank">
-         <img src="https://i.ibb.co/VgSspjY/whatsapp-button.png" alt="botão whatsapp"></a>
-     <script type="text/javascript" src="js/script.js"></script>
+        </div>
+        <div>
+            <a href="contato.html"><img id="envelope" src="imagens/envelope.png" a href="contato.html" width="60px"
+                    height="60px" alt="Envelope"></a>
+            <a href="https://api.whatsapp.com/send?phone=5519992579142&text=Olá, gostaria entrar contato com equipe de 6 melhores notícias."
+                target="_blank"><img src="imagens/wpp.png" width="50px" height="50px" alt="WhatsApp"></a>
+        </div>
+    </footer>
+    <a href="https://api.whatsapp.com/send?phone=5519992579142&text=Olá, gostaria entrar contato com equipe de 6 melhores notícias."
+        class="whatsapp-button" target="_blank">
+        <img src="https://i.ibb.co/VgSspjY/whatsapp-button.png" alt="botão whatsapp"></a>
+    <script type="text/javascript" src="js/script.js"></script>
 </body>
+
 </html>
