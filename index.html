@@ -6,36 +6,29 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles-sobre.css">
     <link rel="stylesheet" href="css/carrossel.css">
     <link href="imagens/Logotipo64.png" rel="shortcut icon" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
-    <title>Home - Gama Academy G11</title>
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
+    <title>Home</title>
 </head>
 
-<body>
-  
 <!-- INICIO Botão SUBIR -->
 <button onclick="topFunction()" id="subir" title="Ir ao topo">Subir</button>
 <!-- FIM Botão SUBIR -->
 
 <!-- INICIO MENU -->
- <header>
-            <nav>
-                <input type="checkbox" id="check">
-                <label for="check" class="checkbtn">
-                    <i class="fas fa-bars"></i>
-                </label>
-                <label class="logo"><img src="imagens/Logotipo64.png"><h1>Gama Academy G11</h1></label>
-                <ul class="navegacao">
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="sobre.html">SOBRE NÓS</a></li>
-                    <li><a href="contato.html">CONTATO</a></li>
-                    <li><a href="saibamais.html">SAIBA MAIS</a></li>
-                </ul>
-            </nav>  
-    </header>
+<header class="box-menu">
+    <div class="logo"></div>
+    <nav>
+        <ul class="navegacao">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="sobre.html">SOBRE NÓS</a></li>
+            <li><a href="contato.html">CONTATO</a></li>
+            <li><a href="saibamais.html">SAIBA MAIS</a></li>
+        </ul>
+    </nav>
+</header>
 <!-- FIM MENU -->
 
 <!-- INICIO Carrossel-->
@@ -54,7 +47,6 @@
         <a class="arrow arrow-next" href="#item-2"></a>
     </div>
 
-
     <div class="carousel-item item-2">
         <h2>G1</h2>
         <div class="text">
@@ -65,71 +57,11 @@
         <a class="arrow arrow-next" href="#item-3"></a>
     </div>
 
-
-    <!-- CARDS NOTICIAS -->
-    <div id="noticias-card">
-        <div class="card"
-            onclick="window.open('https:\/\/www.cnnbrasil.com.br/internacional/2021/04/18/apos-mais-de-um-ano-israelenses-saem-as-ruas-sem-mascara-de-protecao/','mywindow');"
-            style="cursor: pointer;">
-            <div>
-                <img class="img-noticia" src="imagens/noticias/CNN4.png" alt="Avatar" />
-            </div>
-            <div class="container">
-                <h4><b>CNN Brasil</b></h4>
-                <p class="justificaTexto"> Após mais de um ano, israelenses saem às ruas sem máscara.
-                    Governo suspendeu medida após 81% dos cidadãos terem recebido doses da vacina
-                    contra Covid-19.
-                </p>
-            </div>
-        </div>
-        <div class="card"
-            onclick="window.open('https:\/\/g1.globo.com/sp/presidente-prudente-regiao/noticia/2021/02/16/durante-a-pandemia-empreendedorismo-torna-se-opcao-para-superar-desafios-e-inovar-no-mercado-de-trabalho.ghtml','mywindow');"
-            style="cursor: pointer;">
-            <div>
-                <img class="img-noticia" src="imagens/noticias/G1.png" alt="Avatar" />
-            </div>
-            <div class="container">
-                <h4><b>G1</b></h4>
-                <p class="justificaTexto">Na pandemia, empreender é opção de inovação no mercado de
-                    trabalho. O Gestor do Sebrae Eliezer, fala sobre a importância de rever o atual modelo de
-                    negócio.
-                </p>
-            </div>
-        </div>
-        <div class="card"
-            onclick="window.open('https:\/\/g1.globo.com/jornal-nacional/noticia/2021/04/29/chega-ao-brasil-o-primeiro-lote-da-vacina-da-pfizer.ghtml','mywindow');"
-            style="cursor: pointer;">
-            <div>
-                <img class="img-noticia" src="imagens/noticias/Globo2.png" alt="Avatar" />
-            </div>
-            <div class="container">
-                <h4><b>Globo.com</b></h4>
-                <p class="justificaTexto"> Chega ao Brasil o primeiro lote da vacina da
-                    Pfizer.
-                    Para o desembarque da carga de 1 milhão de vacinas, 120 profissionais foram envolvidos na operação.
-                </p>
-            </div>
-        </div>
-        <div class="card" onclick="window.open('https:\/\/www.itau.com.br/coronavirus/doacoes/','mywindow');"
-            style="cursor: pointer;">
-            <div>
-                <img class="img-noticia" src="imagens/noticias/Itau1.png" alt="Avatar" />
-            </div>
-            <div class="container">
-                <h4><b>Itaú</b></h4>
-                <p class="justificaTexto">Itaú Unibanco confirma doação de R$1 bilhão na luta contra o
-                    coronavírus: "Não descansaremos enquanto não derrotarmos a
-                    pandemia, ao lado de todos os
-                    brasileiros."
-                </p>
-            </div>
-
     <div class="carousel-item item-3">
         <h2>Globo.com</h2>
         <div class="text">
             <p>Chega ao Brasil o primeiro lote da vacina da Pfizer. Para o desembarque da carga de 1 milhão de vacinas,
                 120 profissionais foram envolvidos na operação.</p>
-
         </div>
         <a class="arrow arrow-prev" href="#item-2"></a>
         <a class="arrow arrow-next" href="#item-4"></a>
