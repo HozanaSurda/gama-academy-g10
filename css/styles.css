@@ -607,9 +607,10 @@ footer h4 {
 }
 
 footer img  {
-    padding-inline: 0px;
+	margin-top:10px;
 	float: right;
 }
+
 footer #envelope{
     padding-right: 100px;
 }

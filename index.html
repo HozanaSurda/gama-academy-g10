@@ -6,6 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles-sobre.css">
     <link rel="stylesheet" href="css/carrossel.css">
     <link href="imagens/Logotipo64.png" rel="shortcut icon" />
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
@@ -16,18 +17,18 @@
 <button onclick="topFunction()" id="subir" title="Ir ao topo">Subir</button>
 <!-- FIM Botão SUBIR -->
 
-<!-- INICIO MENU -->    
-    <div class="menu">
-        <div id="navbar">
-            <ul>
-                <li><img src="imagens/Logotipo64.png"></li>
-                <li><a href="index.html">Home</a></li>
-                <li><a href="sobre.html">Sobre</a></li>
-                <li><a href="contato.html">Contato</a></li>
-                <li><a href="saibamais.html">Saiba mais</a></li>
-            </ul>
-        </div>
-    </div>
+<!-- INICIO MENU -->
+<header class="box-menu">
+    <div class="logo"></div>
+    <nav>
+        <ul class="navegacao">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="sobre.html">SOBRE NÓS</a></li>
+            <li><a href="contato.html">CONTATO</a></li>
+            <li><a href="saibamais.html">SAIBA MAIS</a></li>
+        </ul>
+    </nav>
+</header>
 <!-- FIM MENU -->
 
 <!-- INICIO Carrossel-->
@@ -39,167 +40,180 @@
     <div class="carousel-item item-1">
         <h2>CNN Brasil</h2>
         <div class="text">
-        <p>Após mais de um ano, israelenses saem às ruas sem máscara. Governo suspendeu medida após 81% dos cidadãos terem recebido doses da vacina contra Covid-19.</p>
+            <p>Após mais de um ano, israelenses saem às ruas sem máscara. Governo suspendeu medida após 81% dos cidadãos
+                terem recebido doses da vacina contra Covid-19.</p>
         </div>
         <a class="arrow arrow-prev" href="#item-4"></a>
         <a class="arrow arrow-next" href="#item-2"></a>
-      </div>
-      
-      <div class="carousel-item item-2">
+    </div>
+
+    <div class="carousel-item item-2">
         <h2>G1</h2>
         <div class="text">
-        <p>Na pandemia, empreender é opção de inovação no mercado de trabalho. O Gestor do Sebrae Eliezer, fala sobre a importância de rever o atual modelo de negócio.</p>
+            <p>Na pandemia, empreender é opção de inovação no mercado de trabalho. O Gestor do Sebrae Eliezer, fala
+                sobre a importância de rever o atual modelo de negócio.</p>
         </div>
         <a class="arrow arrow-prev" href="#item-1"></a>
         <a class="arrow arrow-next" href="#item-3"></a>
-      </div>
-      
-      <div class="carousel-item item-3">
+    </div>
+
+    <div class="carousel-item item-3">
         <h2>Globo.com</h2>
         <div class="text">
-        <p>Chega ao Brasil o primeiro lote da vacina da Pfizer. Para o desembarque da carga de 1 milhão de vacinas, 120 profissionais foram envolvidos na operação.</p>
+            <p>Chega ao Brasil o primeiro lote da vacina da Pfizer. Para o desembarque da carga de 1 milhão de vacinas,
+                120 profissionais foram envolvidos na operação.</p>
         </div>
         <a class="arrow arrow-prev" href="#item-2"></a>
         <a class="arrow arrow-next" href="#item-4"></a>
-      </div>
+    </div>
 
-      <div class="carousel-item item-4">
+    <div class="carousel-item item-4">
         <h2>Itaú</h2>
         <div class="text">
-        <p>Itaú Unibanco confirma doação de R$1 bilhão na luta contra o coronavírus: "Nós nascemos e crescemos neste País. Não descansaremos enquanto não derrotarmos a pandemia, ao lado de todos os brasileiros."</p>
+            <p>Itaú Unibanco confirma doação de R$1 bilhão na luta contra o coronavírus: "Nós nascemos e crescemos neste
+                País. Não descansaremos enquanto não derrotarmos a pandemia, ao lado de todos os brasileiros."</p>
         </div>
         <a class="arrow arrow-prev" href="#item-3"></a>
         <a class="arrow arrow-next" href="#item-1"></a>
-      </div>
     </div>
+</div>
 <!-- FIM Carrossel -->
 
 
-    <h1>As 6 melhores notícias sobre o COVID-19</h1>
+<h1>As 6 melhores notícias sobre o COVID-19</h1>
 
-    <!-- CARDS NOTICIAS -->
-    <div id="noticias-card">
-        <div class="card"
-            onclick="window.open('https:\/\/www.cnnbrasil.com.br/internacional/2021/04/18/apos-mais-de-um-ano-israelenses-saem-as-ruas-sem-mascara-de-protecao/','mywindow');">
-            <div>
-                <img src="imagens/noticias/CNN4.png" alt="Homem usa boné branca e camiseta preta está lendo jornal" />
-            </div>
-            <div class="container">
-                <h4><b>CNN Brasil</b></h4>
-                <p class="justificaTexto"> Após mais de um ano, israelenses saem às ruas sem máscara.
-                    Governo suspendeu medida após 81% dos cidadãos terem recebido doses da vacina
-                    contra Covid-19.
-                </p>
-            </div>
-        </div>
-        <div class="card"
-            onclick="window.open('https:\/\/g1.globo.com/sp/presidente-prudente-regiao/noticia/2021/02/16/durante-a-pandemia-empreendedorismo-torna-se-opcao-para-superar-desafios-e-inovar-no-mercado-de-trabalho.ghtml','mywindow');">
-            <div>
-                <img src="imagens/noticias/G1.png" alt="Pessoa está lendo infográfico na tela do notebook" />
-            </div>
-            <div class="container">
-                <h4><b>G1</b></h4>
-                <p class="justificaTexto">Na pandemia, empreender é opção de inovação no mercado de
-                    trabalho. O Gestor do Sebrae Eliezer, fala sobre a importância de rever o atual modelo de
-                    negócio.
-                </p>
-            </div>
-        </div>
-        <div class="card"
-            onclick="window.open('https:\/\/g1.globo.com/jornal-nacional/noticia/2021/04/29/chega-ao-brasil-o-primeiro-lote-da-vacina-da-pfizer.ghtml','mywindow');">
-            <div>
-                <img src="imagens/noticias/Globo2.png" alt="Dois homens estão descarregando a carga usando carrinho" />
-            </div>
-            <div class="container">
-                <h4><b>Globo.com</b></h4>
-                <p class="justificaTexto"> Chega ao Brasil o primeiro lote da vacina da
-                    Pfizer.
-                    Para o desembarque da carga de 1 milhão de vacinas, 120 profissionais foram envolvidos na operação.
-                </p>
-            </div>
-        </div>
-        <div class="card" onclick="window.open('https:\/\/www.itau.com.br/coronavirus/doacoes/','mywindow');">
-            <div>
-                <img src="imagens/noticias/Itau1.png" alt="Lado esquerdo logomarca Itaú, barra vertical no meio, lado direito logomarca Todos pela Saúde" />
-            </div>
-            <div class="container">
-                <h4><b>Itaú</b></h4>
-                <p class="justificaTexto">Itaú Unibanco confirma doação de R$1 bilhão na luta contra o
-                    coronavírus: "Nós nascemos e crescemos neste País. Não descansaremos enquanto não derrotarmos a pandemia, ao lado de todos os brasileiros."
-                </p>
-            </div>
-        </div>
-    </div>
-
-    <!-- INICIO PAINEL 1 -->
-    <div class="painel">
-        <h3>Doação de medicamentos do kit intubação</h3>
-        <div class="painel-linha">
-            <div id="painel-coluna video">
-                <iframe width="560" height="315" src="https://www.youtube.com/embed/LPyxwC0Fb8c" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
-            </div>
-            <div class="painel-coluna">
-                <p class="justificaTexto">
-                    A doação de 80 mil medicamentos do kit intubação já partiram da Espanha rumo ao Brasil. Os anestésicos, sedativos e bloqueadores neuromusculares serão rapidamente distribuídos para todos os estados. Esse é o Ministério da Saúde trabalhando por você.
-                </p>
-                <a href="https://www.youtube.com/watch?v=LPyxwC0Fb8c"
-                    target="_blank" class="button" style="align-self: center;"><button>SAIBA MAIS</button></a>
-            </div>
-        </div>
-    </div>
-    <!-- FIM PAINEL 1 -->
-
-    <!-- INICIO REFERENCIA -->
-    <div class="referencia">
-        <div class="referencia-texto">
-            <h3>Referências</h3>
-            <p>Seguem as fontes de referências para acessar as notícias descritivas nos sites publicados.</p>
-        </div>
-        <div classe="referencia-botao" >
-            <a href="saibamais.html"><button>SAIBA MAIS</button></a>
-        </div>
-    </div>
-    <!-- FIM REFERENCIA -->
-
-    <!-- INICIO PAINEL 2 -->
-    <div class="painel">
-        <h3>Goiás lança campanha de conscientização com último áudio de paciente de Covid-19</h3>
-        <div class="painel-linha">
-            <div class="painel-coluna">
-                <p class="justificaTexto">
-                    Uma campanha, realizada pelo governo de Goiás, emocionou muitas pessoas. O vídeo lançado
-                    pela gestão estadual tem o objetivo de
-                    fazer com que os moradores do estado obedeçam às orientações de segurança para evitar a expansão da
-                    pandemia de Covid-19. A taxa de ocupação de leitos de UTI no estado está acima de 90%.
-                    O vídeo choca ao exibir as últimas mensagens de áudio enviadas por um paciente que morreu pela
-                    doença. O governo estadual diz que os áudios são de um caso real e que a ideia é sensibilizar as
-                    pessoas.
-                </p>
-                <a href="https://saude.ig.com.br/coronavirus/2021-02-28/goias-lanca-campanha-de-conscientizacao-com-ultimo-audio-de-paciente-de-covid-19.html"
-                    target="_blank" class="button" style="align-self: center;"><button>SAIBA MAIS</button></a>
-            </div>
-
-            <div id="painel-coluna video">
-                <video controls="" width="560" height="315">
-                    <source src="videos/videocv19.mp4">
-                </video>
-            </div>
-        </div>
-    </div>
-    <!-- FIM PAINEL 2 -->
-    <footer>
-       <div>
-           <h4>© Copyright 2021 : Todos direitos reservados G11</h4>
-        </div>
+<!-- CARDS NOTICIAS -->
+<div id="noticias-card">
+    <div class="card"
+        onclick="window.open('https:\/\/www.cnnbrasil.com.br/internacional/2021/04/18/apos-mais-de-um-ano-israelenses-saem-as-ruas-sem-mascara-de-protecao/','mywindow');">
         <div>
-            <a href="contato.html"><img id="envelope" src="imagens/envelope.png" a href="contato.html" width="60px" height="60px" alt="Envelope"></a>
-            <a href="https://api.whatsapp.com/send?phone=5519992579142&text=Olá, gostaria entrar contato com equipe de 6 melhores notícias." target="_blank"><img src="imagens/wpp.png" width="50px" height="50px" alt="WhatsApp"></a>
-        </div>    
-    </footer>
-    <a href="https://api.whatsapp.com/send?phone=5519992579142&text=Olá, gostaria entrar contato com equipe de 6 melhores notícias." class="whatsapp-button" target="_blank">
-        <img src="https://i.ibb.co/VgSspjY/whatsapp-button.png" alt="botão whatsapp"></a>
-    <script type="text/javascript" src="js/script.js"></script>
+            <img src="imagens/noticias/CNN4.png" alt="Homem usa boné branca e camiseta preta está lendo jornal" />
+        </div>
+        <div class="container">
+            <h4><b>CNN Brasil</b></h4>
+            <p class="justificaTexto"> Após mais de um ano, israelenses saem às ruas sem máscara.
+                Governo suspendeu medida após 81% dos cidadãos terem recebido doses da vacina
+                contra Covid-19.
+            </p>
+        </div>
+    </div>
+    <div class="card"
+        onclick="window.open('https:\/\/g1.globo.com/sp/presidente-prudente-regiao/noticia/2021/02/16/durante-a-pandemia-empreendedorismo-torna-se-opcao-para-superar-desafios-e-inovar-no-mercado-de-trabalho.ghtml','mywindow');">
+        <div>
+            <img src="imagens/noticias/G1.png" alt="Pessoa está lendo infográfico na tela do notebook" />
+        </div>
+        <div class="container">
+            <h4><b>G1</b></h4>
+            <p class="justificaTexto">Na pandemia, empreender é opção de inovação no mercado de
+                trabalho. O Gestor do Sebrae Eliezer, fala sobre a importância de rever o atual modelo de
+                negócio.
+            </p>
+        </div>
+    </div>
+    <div class="card"
+        onclick="window.open('https:\/\/g1.globo.com/jornal-nacional/noticia/2021/04/29/chega-ao-brasil-o-primeiro-lote-da-vacina-da-pfizer.ghtml','mywindow');">
+        <div>
+            <img src="imagens/noticias/Globo2.png" alt="Dois homens estão descarregando a carga usando carrinho" />
+        </div>
+        <div class="container">
+            <h4><b>Globo.com</b></h4>
+            <p class="justificaTexto"> Chega ao Brasil o primeiro lote da vacina da
+                Pfizer.
+                Para o desembarque da carga de 1 milhão de vacinas, 120 profissionais foram envolvidos na operação.
+            </p>
+        </div>
+    </div>
+    <div class="card" onclick="window.open('https:\/\/www.itau.com.br/coronavirus/doacoes/','mywindow');">
+        <div>
+            <img src="imagens/noticias/Itau1.png"
+                alt="Lado esquerdo logomarca Itaú, barra vertical no meio, lado direito logomarca Todos pela Saúde" />
+        </div>
+        <div class="container">
+            <h4><b>Itaú</b></h4>
+            <p class="justificaTexto">Itaú Unibanco confirma doação de R$1 bilhão na luta contra o
+                coronavírus: "Nós nascemos e crescemos neste País. Não descansaremos enquanto não derrotarmos a
+                pandemia, ao lado de todos os brasileiros."
+            </p>
+        </div>
+    </div>
+</div>
+
+<!-- INICIO PAINEL 1 -->
+<div class="painel">
+    <h3>Doação de medicamentos do kit intubação</h3>
+    <div class="painel-linha">
+        <div id="painel-coluna video">
+            <iframe width="560" height="315" src="https://www.youtube.com/embed/LPyxwC0Fb8c"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                allowfullscreen></iframe>
+        </div>
+        <div class="painel-coluna">
+            <p class="justificaTexto">
+                A doação de 80 mil medicamentos do kit intubação já partiram da Espanha rumo ao Brasil. Os anestésicos,
+                sedativos e bloqueadores neuromusculares serão rapidamente distribuídos para todos os estados. Esse é o
+                Ministério da Saúde trabalhando por você.
+            </p>
+            <a href="https://www.youtube.com/watch?v=LPyxwC0Fb8c" target="_blank" class="button"
+                style="align-self: center;"><button>SAIBA MAIS</button></a>
+        </div>
+    </div>
+</div>
+<!-- FIM PAINEL 1 -->
+
+<!-- INICIO REFERENCIA -->
+<div class="referencia">
+    <div class="referencia-texto">
+        <h3>Referências</h3>
+        <p>Seguem as fontes de referências para acessar as notícias descritivas nos sites publicados.</p>
+    </div>
+    <div classe="referencia-botao">
+        <a href="saibamais.html"><button>SAIBA MAIS</button></a>
+    </div>
+</div>
+<!-- FIM REFERENCIA -->
+
+<!-- INICIO PAINEL 2 -->
+<div class="painel">
+    <h3>Goiás lança campanha de conscientização com último áudio de paciente de Covid-19</h3>
+    <div class="painel-linha">
+        <div class="painel-coluna">
+            <p class="justificaTexto">
+                Uma campanha, realizada pelo governo de Goiás, emocionou muitas pessoas. O vídeo lançado
+                pela gestão estadual tem o objetivo de
+                fazer com que os moradores do estado obedeçam às orientações de segurança para evitar a expansão da
+                pandemia de Covid-19. A taxa de ocupação de leitos de UTI no estado está acima de 90%.
+                O vídeo choca ao exibir as últimas mensagens de áudio enviadas por um paciente que morreu pela
+                doença. O governo estadual diz que os áudios são de um caso real e que a ideia é sensibilizar as
+                pessoas.
+            </p>
+            <a href="https://saude.ig.com.br/coronavirus/2021-02-28/goias-lanca-campanha-de-conscientizacao-com-ultimo-audio-de-paciente-de-covid-19.html"
+                target="_blank" class="button" style="align-self: center;"><button>SAIBA MAIS</button></a>
+        </div>
+
+        <div id="painel-coluna video">
+            <video controls="" width="560" height="315">
+                <source src="videos/videocv19.mp4">
+            </video>
+        </div>
+    </div>
+</div>
+<!-- FIM PAINEL 2 -->
+<footer>
+    <div>
+        <h4>© Copyright 2021 : Todos direitos reservados G11</h4>
+    </div>
+    <div>
+        <a href="contato.html"><img id="envelope" src="imagens/envelope.png" a href="contato.html" width="60px"
+                height="60px" alt="Envelope"></a>
+        <a href="https://api.whatsapp.com/send?phone=5519992579142&text=Olá, gostaria entrar contato com equipe de 6 melhores notícias."
+            target="_blank"><img src="imagens/wpp.png" width="50px" height="50px" alt="WhatsApp"></a>
+    </div>
+</footer>
+<a href="https://api.whatsapp.com/send?phone=5519992579142&text=Olá, gostaria entrar contato com equipe de 6 melhores notícias."
+    class="whatsapp-button" target="_blank">
+    <img src="https://i.ibb.co/VgSspjY/whatsapp-button.png" alt="botão whatsapp"></a>
+<script type="text/javascript" src="js/script.js"></script>
 </body>
+
 </html>
-
-
