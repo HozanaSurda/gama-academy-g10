@@ -152,7 +152,7 @@ formularioDeContato.addEventListener('submit', function(e){
 	let email = document.getElementById('emailid').value;
 	let mensagem = document.getElementById('mensagemid').value;
 
-fetch('https://webhook.site/59a71bd6-656c-442e-9691-24b9b701c997', {
+fetch('https://webhook.site/c76c818e-41ac-4870-b0cb-d5da8940f4db', {
     method: 'POST',
     body: JSON.stringify({
 	nomeid: nome,
@@ -163,10 +163,7 @@ fetch('https://webhook.site/59a71bd6-656c-442e-9691-24b9b701c997', {
 	}).then( response => {
 		if (response.status === 200) {
 			alert('Mensagem enviada');
-				document.getElementById('nomeid').value = "";
-				document.getElementById('foneid').value ="";
-				document.getElementById('emailid').value="";
-				document.getElementById('mensagemid').value="";
+			//	document.getElementById('contact-form').reset();
 		} else {
 			alert("ERROR");
 		}
