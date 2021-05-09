@@ -56,20 +56,20 @@
   .item-1{
       z-index: 2;
       opacity: 1;
-    background:url('img/cnnbr.png');
+    background:url("../imagens/carrossel/treinamento.png");
     background-size:cover;
     }
   .item-2{
-    background:url('img/g1.png');
+    background:url("../imagens/carrossel/itaugama.png");
      background-size:cover;
   }
   .item-3{
-    background:url('img/globo.png');
+    background:url("../imagens/carrossel/desafio.png");
      background-size:cover;
   }
 
   .item-4{
-    background:url('img/itau.png');
+    background:url("../imagens/carrossel/vencedor.png");
      background-size:cover;
   }
   
@@ -96,6 +96,7 @@
     font-size: 50px;
     font-style: bold;
    
+    
 }
 
 .text {   
@@ -103,6 +104,15 @@
     font-size: 20px;
     font-style: bold;
     position: absolute;
-    bottom: 8px;
- 
+    bottom:0;
+    opacity:70%;
+    margin:0 auto;
+
+  }
+
+.text p {
+  background: #000;
+  color:white;
+
+
 }

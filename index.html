@@ -6,146 +6,93 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="css/styles-sobre.css">
     <link rel="stylesheet" href="css/carrossel.css">
     <link href="imagens/Logotipo64.png" rel="shortcut icon" />
-    <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Roboto">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css">
+    <link rel="stylesheet" href="css/style-menu.css">
     <title>Home - Gama Academy G11</title>
 </head>
 
-<body>
-  
 <!-- INICIO Botão SUBIR -->
-<button onclick="topFunction()" id="subir" title="Ir ao topo">Subir</button>
+<button onclick="topFunction()" id="subir" title="Ir ao topo">Topo</button>
 <!-- FIM Botão SUBIR -->
 
 <!-- INICIO MENU -->
- <header>
-            <nav>
-                <input type="checkbox" id="check">
-                <label for="check" class="checkbtn">
-                    <i class="fas fa-bars"></i>
-                </label>
-                <label class="logo"><img src="imagens/Logotipo64.png"><h1>Gama Academy G11</h1></label>
-                <ul class="navegacao">
-                    <li><a href="index.html">HOME</a></li>
-                    <li><a href="sobre.html">SOBRE NÓS</a></li>
-                    <li><a href="contato.html">CONTATO</a></li>
-                    <li><a href="saibamais.html">SAIBA MAIS</a></li>
-                </ul>
-            </nav>  
-    </header>
+<header>
+    <nav>
+        <input type="checkbox" id="check">
+        <label for="check" class="checkbtn">
+            <i class="fas fa-bars"></i>
+        </label>
+        <label class="logo"><img src="imagens/Logotipo64.png">
+            <h1>Gama Academy G11</h1>
+        </label>
+        <ul class="navegacao">
+            <li><a href="index.html">HOME</a></li>
+            <li><a href="sobre.html">SOBRE NÓS</a></li>
+            <li><a href="contato.html">CONTATO</a></li>
+            <li><a href="saibamais.html">SAIBA MAIS</a></li>
+        </ul>
+    </nav>
+</header>
 <!-- FIM MENU -->
 
-<!-- INICIO Carrossel-->
+<!--  INICIO Carrossel -->
 <div class="carousel-wrapper">
     <span id="item-1"></span>
     <span id="item-2"></span>
     <span id="item-3"></span>
     <span id="item-4"></span>
     <div class="carousel-item item-1">
-        <h2>CNN Brasil</h2>
+        <h2>Itaú e Gama Academy</h2>
         <div class="text">
-            <p>Após mais de um ano, israelenses saem às ruas sem máscara. Governo suspendeu medida após 81% dos cidadãos
-                terem recebido doses da vacina contra Covid-19.</p>
+            <p>O Itaú Unibanco é o maior banco privado do Brasil, a maior instituição financeira da América Latina e uma
+                das maiores do mundo. Nossa marca é apontada como a mais valiosa do país, segundo o ranking Interbrand,
+                entre outros importantes reconhecimentos.
+                A Gama Academy é uma escola que seleciona e capacita talentos nas áreas de desenvolvimento, design,
+                marketing e vendas para trabalhar no mercado digital e tem a missão de transformar 1 milhão de
+                profissionais nos próximos 5 anos.</p>
         </div>
         <a class="arrow arrow-prev" href="#item-4"></a>
         <a class="arrow arrow-next" href="#item-2"></a>
     </div>
 
-
     <div class="carousel-item item-2">
-        <h2>G1</h2>
+        <h2>Formação do Itaú Tech</h2>
         <div class="text">
-            <p>Na pandemia, empreender é opção de inovação no mercado de trabalho. O Gestor do Sebrae Eliezer, fala
-                sobre a importância de rever o atual modelo de negócio.</p>
+            <p>O programa que é para formação de profissionais para área de Tecnologia em parceria do Itaú com a Gama
+                Academy realizar a trilha preparatória profissional voltada para a Pessoas com Deficiência.</p>
         </div>
         <a class="arrow arrow-prev" href="#item-1"></a>
         <a class="arrow arrow-next" href="#item-3"></a>
     </div>
 
-
-    <!-- CARDS NOTICIAS -->
-    <div id="noticias-card">
-        <div class="card"
-            onclick="window.open('https:\/\/www.cnnbrasil.com.br/internacional/2021/04/18/apos-mais-de-um-ano-israelenses-saem-as-ruas-sem-mascara-de-protecao/','mywindow');"
-            style="cursor: pointer;">
-            <div>
-                <img class="img-noticia" src="imagens/noticias/CNN4.png" alt="Avatar" />
-            </div>
-            <div class="container">
-                <h4><b>CNN Brasil</b></h4>
-                <p class="justificaTexto"> Após mais de um ano, israelenses saem às ruas sem máscara.
-                    Governo suspendeu medida após 81% dos cidadãos terem recebido doses da vacina
-                    contra Covid-19.
-                </p>
-            </div>
-        </div>
-        <div class="card"
-            onclick="window.open('https:\/\/g1.globo.com/sp/presidente-prudente-regiao/noticia/2021/02/16/durante-a-pandemia-empreendedorismo-torna-se-opcao-para-superar-desafios-e-inovar-no-mercado-de-trabalho.ghtml','mywindow');"
-            style="cursor: pointer;">
-            <div>
-                <img class="img-noticia" src="imagens/noticias/G1.png" alt="Avatar" />
-            </div>
-            <div class="container">
-                <h4><b>G1</b></h4>
-                <p class="justificaTexto">Na pandemia, empreender é opção de inovação no mercado de
-                    trabalho. O Gestor do Sebrae Eliezer, fala sobre a importância de rever o atual modelo de
-                    negócio.
-                </p>
-            </div>
-        </div>
-        <div class="card"
-            onclick="window.open('https:\/\/g1.globo.com/jornal-nacional/noticia/2021/04/29/chega-ao-brasil-o-primeiro-lote-da-vacina-da-pfizer.ghtml','mywindow');"
-            style="cursor: pointer;">
-            <div>
-                <img class="img-noticia" src="imagens/noticias/Globo2.png" alt="Avatar" />
-            </div>
-            <div class="container">
-                <h4><b>Globo.com</b></h4>
-                <p class="justificaTexto"> Chega ao Brasil o primeiro lote da vacina da
-                    Pfizer.
-                    Para o desembarque da carga de 1 milhão de vacinas, 120 profissionais foram envolvidos na operação.
-                </p>
-            </div>
-        </div>
-        <div class="card" onclick="window.open('https:\/\/www.itau.com.br/coronavirus/doacoes/','mywindow');"
-            style="cursor: pointer;">
-            <div>
-                <img class="img-noticia" src="imagens/noticias/Itau1.png" alt="Avatar" />
-            </div>
-            <div class="container">
-                <h4><b>Itaú</b></h4>
-                <p class="justificaTexto">Itaú Unibanco confirma doação de R$1 bilhão na luta contra o
-                    coronavírus: "Não descansaremos enquanto não derrotarmos a
-                    pandemia, ao lado de todos os
-                    brasileiros."
-                </p>
-            </div>
-
     <div class="carousel-item item-3">
-        <h2>Globo.com</h2>
+        <h2>Desafio - Itaú Tech</h2>
         <div class="text">
-            <p>Chega ao Brasil o primeiro lote da vacina da Pfizer. Para o desembarque da carga de 1 milhão de vacinas,
-                120 profissionais foram envolvidos na operação.</p>
-
+            <p>Equipe usam tudo que aprenderam de HTML, CSS e GIT para construir uma Landing Page com 6 boas notícias
+                sobre o COVID-19! Ele tem duas etapas.
+            <p>ETAPA 1: Formação de grupos</p>
+            <p>ETAPA 2: Construção da Landing Page</p>
         </div>
         <a class="arrow arrow-prev" href="#item-2"></a>
         <a class="arrow arrow-next" href="#item-4"></a>
     </div>
 
     <div class="carousel-item item-4">
-        <h2>Itaú</h2>
+        <h2>Até a próxima etapa - Vencedor</h2>
         <div class="text">
-            <p>Itaú Unibanco confirma doação de R$1 bilhão na luta contra o coronavírus: "Nós nascemos e crescemos neste
-                País. Não descansaremos enquanto não derrotarmos a pandemia, ao lado de todos os brasileiros."</p>
+            <p>Trilha de especialização
+                As pessoas que mandarem bem e forem selecionadas serão contratadas e passarão a fazer parte do time de Tecnologia do Itaú. Durante o primeiro mês ficarão em um treinamento imersivo em Back-end para aprender mais sobre Java e .Net, além de outros conteúdos complementares. Tudo isso de forma prática e dinâmica, com desafios do dia a dia.
+                Após a conclusão, as pessoas serão alocadas em áreas específicas para iniciar oficialmente sua jornada na área de Tecnologia.</p>
         </div>
         <a class="arrow arrow-prev" href="#item-3"></a>
         <a class="arrow arrow-next" href="#item-1"></a>
     </div>
 </div>
-<!-- FIM Carrossel -->
+<!--  FIM Carrossel -->
 
 
 <h1>As 6 melhores notícias sobre o COVID-19</h1>
@@ -244,9 +191,10 @@
 <!-- INICIO PAINEL 2 -->
 <div class="painel">
     <h3>Goiás lança campanha de conscientização com último áudio de paciente de Covid-19</h3>
+    
     <div class="painel-linha">
         <div class="painel-coluna">
-            <p class="justificaTexto">
+             <p class="justificaTexto">
                 Uma campanha, realizada pelo governo de Goiás, emocionou muitas pessoas. O vídeo lançado
                 pela gestão estadual tem o objetivo de
                 fazer com que os moradores do estado obedeçam às orientações de segurança para evitar a expansão da
@@ -260,9 +208,7 @@
         </div>
 
         <div id="painel-coluna video">
-            <video controls="" width="560" height="315">
-                <source src="videos/videocv19.mp4">
-            </video>
+            <iframe src="https://www.facebook.com/plugins/video.php?href=https%3A%2F%2Fwww.facebook.com%2Fgovernodegoias%2Fvideos%2F585084762456436%2F&show_text=0&width=560" width="560" height="315" style="border:none;overflow:hidden" scrolling="no" frameborder="0" allowfullscreen="true" allow="autoplay; clipboard-write; encrypted-media; picture-in-picture; web-share" allowFullScreen="true"></iframe>
         </div>
     </div>
 </div>
@@ -272,16 +218,15 @@
         <h4>© Copyright 2021 : Todos direitos reservados G11</h4>
     </div>
     <div>
-        <a href="contato.html"><img id="envelope" src="imagens/envelope.png" a href="contato.html" width="60px"
+        <a href="mailto:gamaacademyg11@gmail.com"><img id="envelope" src="imagens/envelope.png" width="60px"
                 height="60px" alt="Envelope"></a>
-        <a href="https://api.whatsapp.com/send?phone=5519992579142&text=Olá, gostaria entrar contato com equipe de 6 melhores notícias."
+        <a href="https://api.whatsapp.com/send?phone=5513981125581&text=Olá, gostaria entrar contato com equipe de 6 melhores notícias."
             target="_blank"><img src="imagens/wpp.png" width="50px" height="50px" alt="WhatsApp"></a>
     </div>
 </footer>
-<a href="https://api.whatsapp.com/send?phone=5519992579142&text=Olá, gostaria entrar contato com equipe de 6 melhores notícias."
+<a href="https://api.whatsapp.com/send?phone=5513981125581&text=Olá, gostaria entrar contato com equipe de 6 melhores notícias."
     class="whatsapp-button" target="_blank">
     <img src="https://i.ibb.co/VgSspjY/whatsapp-button.png" alt="botão whatsapp"></a>
 <script type="text/javascript" src="js/script.js"></script>
 </body>
-
 </html>
