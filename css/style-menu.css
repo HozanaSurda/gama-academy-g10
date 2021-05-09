@@ -54,8 +54,14 @@ body{
     .checkbtn{
        display:block;
     }
+
+    .box-title{
+       z-index:-999;
+       position: relative;
+       
+    }
     ul{
-        position:fixed;
+        position:relative;
         width:60%;
         height:100vh;
         background:#140083;
@@ -63,6 +69,7 @@ body{
         left:-120%;
         text-align:center;
         transition:all .5s;
+         
     }
     nav ul li{
        display:inline-flex;
