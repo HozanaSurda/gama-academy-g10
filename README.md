@@ -18,7 +18,7 @@ Repositório com site de notícias Covid-19.
 * Rosenilda Aparecida Santos Gonsalves
 * Viviane Machado
 
-> Status: Em desenvolvimento
+> Status: Finalizado.
 
 ## Tecnologias utilizadas
 
